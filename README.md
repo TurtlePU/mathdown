@@ -150,21 +150,21 @@ In latex, the same is written as
                 1 & 2
             \end{matrix}
             & \rvline &
-            \begin{pmatrix}
+            \begin{matrix}
                 3 & \cdots & 6
-            \end{pmatrix}
+            \end{matrix}
             \\ \hline \\
-            \begin{pmatrix}
+            \begin{matrix}
                 7 & 8 \\
                 \vdots \\
                 11 & 12
-            \end{pmatrix}
+            \end{matrix}
             & \rvline &
-            \begin{pmatrix}
+            \begin{matrix}
                 13 & \cdots & . \\
                 \vdots & \ddots & \vdots \\
                 . & \cdots & 24
-            \end{pmatrix}
+            \end{matrix}
         \end{pmatrix}
     }
 }
