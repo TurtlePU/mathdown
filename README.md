@@ -29,63 +29,62 @@ Mathdown is a lightweight markup language for writing math homeworks.
 
 Text syntax is really close to markdown.
 
-```
-# Title
+    # Title
 
-## Section
+    ## Section
 
-### Subsection
+    ### Subsection
 
-#### Subsubsection
+    #### Subsubsection
 
-##### Paragraph
+    ##### Paragraph
 
-Regular text
+    Regular text
 
-Another paragraph
+    Another paragraph
 
-1. Ordered
-2. List
+    1. Ordered
+    2. List
 
-* Bullet
-* List
-    - nested
-    - list
-        1. another
-        2. nested
-        3. list
-        content after the list
+    * Bullet
+    * List
+        - nested
+        - list
+            1. another
+            2. nested
+            3. list
+            content after the list
 
-**Bold**, *italic*, ***italic bold***, `code`.
+    **Bold**, *italic*, ***italic bold***, `code`.
 
-\`\`\`language
-    code block
-\`\`\`
+    ```language
+        code block
+    ```
 
-![Image title (tex) / placeholder (web)](image.png)
+    ![Image title (tex) / placeholder (web)](image.png)
 
-[Link text](http://example.com)
+    [Link text](http://example.com)
 
-[](http://example.com/show url look ma spaces)
+    [](http://example.com/show url look ma spaces)
 
-Inline math expression: {sin x + 1/2 + 1/80 ({tg^100 x - a}/{9 b} + w)}
+    Inline math expression: {sin x + 1/2 + 1/80 ({tg^100 x - a}/{9 b} + w)}
 
-(Possibly multiline) blocks:
+    (Possibly multiline) blocks:
 
-{
-    mathbb{E}[{x!}/{sin x + cov}] = int_{-oo}^oo {x!}/{sin x + cov} p(x)  d x
-}
-
-Fallback to LaTeX:
-
-{
-    latex{
-        \mathbb{E}\left[ \dfrac{x!}{\sin x + \operatorname{cov}} \right] =
-            \int\limits_{-\infty}^\infty
-                \dfrac{x!}{\sin x + \operatorname{cov}} p(x) \, dx
+    {
+        mathbb{E}[{x!}/{sin x + cov}] =
+            int_{-oo}^oo {x!}/{sin x + cov} p(x)  d x
     }
-}
-```
+
+    Fallback to LaTeX:
+
+    {
+        latex{
+            \mathbb{E}\left[ \dfrac{x!}{\sin x + \operatorname{cov}} \right] =
+                \int\limits_{-\infty}^\infty
+                    \dfrac{x!}{\sin x + \operatorname{cov}} p(x) \, dx
+        }
+    }
 
 ## Math mode
 
